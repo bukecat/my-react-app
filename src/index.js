@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import LifecyclesTest from './pages/lifecycles';
-
 import reportWebVitals from './reportWebVitals';
+
+import Index from './pages/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LifecyclesTest/>
+    <Index/>
   </React.StrictMode>,
 
   document.getElementById('root')
