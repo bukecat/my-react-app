@@ -4,6 +4,7 @@ import LifecyclesTest from './lifecycles';
 import RenderPropsTest from './renderProps'
 
 import UseStateTest from "./hooks/useStateTest";
+import UseEffectTest from './hooks/useEffectTest';
 
 console.log(React);
 
@@ -39,6 +40,10 @@ class Index extends React.Component{
 
         <div>{this.state.count}</div>
         <UseStateTest onClick={this.handleClick.bind(this)}/>
+
+        {line}
+
+        <UseEffectTest/>
       </>
     )
   }

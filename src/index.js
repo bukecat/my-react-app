@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 import Index from './pages/index';
 
+// <React.StrictMode>
+//  <Index/>
+// </React.StrictMode>,
+
 ReactDOM.render(
-  <React.StrictMode>
-    <Index/>
-  </React.StrictMode>,
+  <Index/>,
 
   document.getElementById('root')
 );
